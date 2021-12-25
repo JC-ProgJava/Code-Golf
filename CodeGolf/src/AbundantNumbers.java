@@ -1,1 +1,1 @@
-interface D{static void main(String[]a){for(int i=0;i++<200;){int s=0;for(int j=1;j++<i-1;)if(i%j<1)s+=j;if(s>i)System.out.println(i);}}}
+interface D{static void main(String[]a){for(int i=0;i++<2e2;){int s=0;for(int j=1;j<i;j++)s+=i%j<1?j:0;if(s>i)System.out.println(i);}}}

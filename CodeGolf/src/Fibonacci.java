@@ -1,0 +1,1 @@
+interface M{static void main(String[]a){for(int i=0;i<31;i++)System.out.println((int)(Math.pow(1.61803398,i)/2.236067+.5));}}

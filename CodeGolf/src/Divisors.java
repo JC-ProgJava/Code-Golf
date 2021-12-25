@@ -1,0 +1,1 @@
+interface A{static void main(String[]a){for(int i=0;i++<100;){for(int j=0;j++<=i;){if(i%j<1){System.out.printf("%d ",j);}}System.out.println();}}}
